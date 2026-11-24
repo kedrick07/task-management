@@ -1,0 +1,48 @@
+npm
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+import { getAnalytics } from "firebase/analytics";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+// For Firebase JS SDK v7.20.0 and later, measurementId is optional
+const firebaseConfig = {
+  apiKey: "AIzaSyBe0HGh4nfAb2_lZ2N7iFTJFcZRAaFPbjw",
+  authDomain: "student-task-system-kedrick.firebaseapp.com",
+  projectId: "student-task-system-kedrick",
+  storageBucket: "student-task-system-kedrick.firebasestorage.app",
+  messagingSenderId: "805246261058",
+  appId: "1:805246261058:web:cdb684b7d3da4ac00c1adb",
+  measurementId: "G-3X24XVQJY6"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+const analytics = getAnalytics(app);
+
+
+<script> tag
+<script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/13.4.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/13.4.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyBe0HGh4nfAb2_lZ2N7iFTJFcZRAaFPbjw",
+    authDomain: "student-task-system-kedrick.firebaseapp.com",
+    projectId: "student-task-system-kedrick",
+    storageBucket: "student-task-system-kedrick.firebasestorage.app",
+    messagingSenderId: "805246261058",
+    appId: "1:805246261058:web:cdb684b7d3da4ac00c1adb",
+    measurementId: "G-3X24XVQJY6"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
